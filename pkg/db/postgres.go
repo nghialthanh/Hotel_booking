@@ -1,8 +1,8 @@
-package postgres
+package db
 
 import (
 	"fmt"
-	"hote-booking/config"
+	"hotel-booking/config"
 	"time"
 
 	"github.com/jmoiron/sqlx"

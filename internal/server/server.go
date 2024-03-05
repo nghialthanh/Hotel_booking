@@ -2,7 +2,7 @@ package server
 
 import (
 	"context"
-	"hote-booking/config"
+	"hotel-booking/config"
 	"net/http"
 	_ "net/http/pprof"
 	"os"

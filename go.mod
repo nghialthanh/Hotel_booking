@@ -1,4 +1,4 @@
-module hote-booking
+module hotel-booking
 
 go 1.19
 
