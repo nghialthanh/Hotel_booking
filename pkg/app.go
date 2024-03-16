@@ -45,7 +45,7 @@ func (app *App) Run() error {
 		for _, db := range app.DBList {
 			err := db.Connect()
 			if err != nil {
-				fmt.Println("Connect DB " + db.Name + " error: " + err.Error())
+				fmt.Println("Connect DB " + db.Name + " is error: " + err.Error())
 				return err
 			}
 		}

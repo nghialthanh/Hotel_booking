@@ -2,7 +2,7 @@ package pkg
 
 import "time"
 
-type ServerConfig struct {
+type ConfigServer struct {
 	AppVersion        string
 	Port              string
 	PprofPort         string
